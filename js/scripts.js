@@ -5,7 +5,7 @@ $( document ).ready(function() {
 
   let circleA = new ProgressBar.Circle(containerA, {
 
-    color: '#6699FF',
+    color: '#65DAF9',
     strokeWidth: 8,
     duration: 1400,
     from: { color: '#aaa'},
@@ -25,7 +25,7 @@ $( document ).ready(function() {
 
   let circleB = new ProgressBar.Circle(containerB, {
 
-    color: '#6699FF',
+    color: '#65DAF9',
     strokeWidth: 8,
     duration: 1600,
     from: { color: '#aaa'},
@@ -45,7 +45,7 @@ $( document ).ready(function() {
 
   let circleC = new ProgressBar.Circle(containerC, {
 
-    color: '#6699FF',
+    color: '#65DAF9',
     strokeWidth: 8,
     duration: 1800,
     from: { color: '#aaa'},
@@ -65,7 +65,7 @@ $( document ).ready(function() {
 
   let circleD = new ProgressBar.Circle(containerD, {
 
-    color: '#6699FF',
+    color: '#65DAF9',
     strokeWidth: 8,
     duration: 2000,
     from: { color: '#aaa'},
