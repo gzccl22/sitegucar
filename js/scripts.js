@@ -5,7 +5,7 @@ $( document ).ready(function() {
 
   let circleA = new ProgressBar.Circle(containerA, {
 
-    color: '#ffff',
+    color: '#6699FF',
     strokeWidth: 8,
     duration: 1400,
     from: { color: '#aaa'},
@@ -14,7 +14,7 @@ $( document ).ready(function() {
     step: function(state, circle) {
       circle.path.setAttribute('stroke', state.color);
 
-      var value = Math.round(circle.value() * 60);
+      var value = Math.round(circle.value() * 1);
       circle.setText(value);
 
     }
@@ -25,7 +25,7 @@ $( document ).ready(function() {
 
   let circleB = new ProgressBar.Circle(containerB, {
 
-    color: '#ffff',
+    color: '#6699FF',
     strokeWidth: 8,
     duration: 1600,
     from: { color: '#aaa'},
@@ -34,7 +34,7 @@ $( document ).ready(function() {
     step: function(state, circle) {
       circle.path.setAttribute('stroke', state.color);
 
-      var value = Math.round(circle.value() * 254);
+      var value = Math.round(circle.value() * 2);
       circle.setText(value);
 
     }
@@ -45,7 +45,7 @@ $( document ).ready(function() {
 
   let circleC = new ProgressBar.Circle(containerC, {
 
-    color: '#ffff',
+    color: '#6699FF',
     strokeWidth: 8,
     duration: 1800,
     from: { color: '#aaa'},
@@ -54,7 +54,7 @@ $( document ).ready(function() {
     step: function(state, circle) {
       circle.path.setAttribute('stroke', state.color);
 
-      var value = Math.round(circle.value() * 32);
+      var value = Math.round(circle.value() * 3);
       circle.setText(value);
 
     }
@@ -65,7 +65,7 @@ $( document ).ready(function() {
 
   let circleD = new ProgressBar.Circle(containerD, {
 
-    color: '#ffff',
+    color: '#6699FF',
     strokeWidth: 8,
     duration: 2000,
     from: { color: '#aaa'},
@@ -74,7 +74,7 @@ $( document ).ready(function() {
     step: function(state, circle) {
       circle.path.setAttribute('stroke', state.color);
 
-      var value = Math.round(circle.value() * 5423);
+      var value = Math.round(circle.value() * 4);
       circle.setText(value);
 
     }
